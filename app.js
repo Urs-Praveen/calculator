@@ -10,3 +10,13 @@ item[0].style = 'color: #00FF00'
 
 var listItem = document.getElementsByClassName('list-group-item')
 console.log(listItem);
+var listItem = document.getElementsByClassName('list-group-item')
+listItem[2].style.backgroundColor ='green'
+for(let i=0;i<listItem.length ;i++){
+    if(i == 2){
+        continue
+    }
+    listItem[i].style.fontWeight ='bold'
+    listItem[i].style ='color : red'
+
+}
