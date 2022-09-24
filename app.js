@@ -20,3 +20,6 @@ for(let i=0;i<listItem.length ;i++){
     listItem[i].style ='color : red'
 
 }
+var li= document.getElementsByTagName('li')
+//console.log(li)
+li[4].style.backgroundColor = '#ccc'
